@@ -49,7 +49,7 @@ PREFIX=/
 #  IDEAS
 #  SOURCE
 #
-VERSION=5.0
+VERSION=5.1
 
 #************ VERSION 
 #****d* Makefile/PACKAGE_NAME

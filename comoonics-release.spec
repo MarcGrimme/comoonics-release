@@ -47,8 +47,8 @@
 
 Group:          %{GROUPPARENT}/%{GROUPCHILDBASE}
 Name:           comoonics-release
-Version:        5.0
-Release:        2_%{LINUXSHORTDISTRO}
+Version:        5.1
+Release:        1_%{LINUXSHORTDISTRO}
 Summary:        com.oonics release package
 License:        GPLv2+
 Vendor:         ATIX AG
@@ -88,6 +88,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr(0644, root, root) %{_sysconfdir}/comoonics-release
 
 %changelog
+* Thu Aug 16 2012 Marc Grimme <grimme( at )atix.de> - 5.1-1
+- Rebase for com.oonics 5.1
 * Tue Nov 01 2011 Marc Grimme <grimme( at )atix.de> - 5.0-2
 - Rebase for com.oonics 5.0 and right names
 * Tue Aug 09 2011 Marc Grimme <grimme( AT )atix.de> - 5.0-1
